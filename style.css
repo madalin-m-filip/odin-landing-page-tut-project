@@ -12,7 +12,7 @@ body {
     font-family: roboto, sans-serif;
 }
 
-header, main, footer {
+header, #info-section, .quote, #cta-section, footer {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -123,4 +123,23 @@ h2 {
     text-align: center;
     line-height: 1;
     color: #6D747D;
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote figcaption {
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
 }
