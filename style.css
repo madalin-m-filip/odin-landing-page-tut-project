@@ -108,6 +108,8 @@ h2 {
     display: flex;
     gap: 50px;
     align-items: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .image {
@@ -131,6 +133,11 @@ h2 {
     padding-bottom: 10%;
 }
 
+.quote {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .quote blockquote {
     font-size: 36px;
     font-weight: 300;
@@ -142,4 +149,33 @@ h2 {
     text-align: right;
     font-weight: bold;
     color: #1f2937;
+}
+
+#cta-section {
+    padding-top: 10%;
+    padding-bottom: 10%;   
+}
+
+.cta-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cta-div .cta {
+    border: 2px solid white;
+    margin-right: 10%;
+}
+
+.cta-div div {
+    margin-left: 10%;
+    color: #fff;
+}
+
+.cta-div h3 {
+    font-size: 24px;
 }
