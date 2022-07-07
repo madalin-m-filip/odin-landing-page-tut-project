@@ -179,3 +179,11 @@ h2 {
 .cta-div h3 {
     font-size: 24px;
 }
+
+.copyright {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
